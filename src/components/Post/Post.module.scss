@@ -1,0 +1,97 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.post {
+  &__category {
+    max-width: $layout-post-single-width;
+    font-size: $typographic-base-font-size * 1.2;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: gray;
+    border-bottom: 2px solid $color-gray-border;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-family: $typographic-heading-font-family;
+  }
+
+  &__footer {
+    max-width: $layout-post-single-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__comments {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__home-button {
+    display: block;
+    max-width: 90px;
+    height: $button-height;
+    padding: 0 24px;
+    line-height: $button-height;
+    text-align: center;
+    color: $color-base;
+    border: 1px solid $color-gray-border;
+    border-radius: $button-border-radius;
+    font-size: $typographic-base-font-size;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    @include margin-top(1);
+
+    &:hover,
+    &:focus {
+      color: $color-primary;
+    }
+  }
+
+  &__home-title {
+    display: block;
+    padding: 0 24px;
+    text-align: center;
+    color: $color-primary;
+    font-size: $typographic-base-font-size * 2;
+    font-family: $typographic-heading-font-family;
+    border-bottom: 0.25rem solid $color-secondary;
+    max-width: 80px;
+    font-weight: 600;
+    margin: auto;
+    @include margin-top(2);
+
+    &:hover,
+    &:focus {
+      color: $color-primary;
+    }
+
+  }
+
+}
+
+@include breakpoint-md {
+  .post {
+    &__footer {
+      padding: 0;
+    }
+
+    &__category {
+      margin-top: 5rem;
+    }
+    &__comments {
+      padding: 0;
+    }
+
+    &__home-button {
+      position: fixed;
+      max-width: auto;
+      margin: 0;
+      top: 30px;
+      left: 30px
+    }
+
+  }
+
+}

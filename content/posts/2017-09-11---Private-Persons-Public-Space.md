@@ -1,0 +1,17 @@
+---
+title: Private Persons/Public Space
+date: "2017-09-11T00:00:00.169Z"
+template: "post"
+draft: false
+slug: "/writing/private-persons-public-space/"
+category: "Politics of Code"
+description: "Software for and against the public"
+---
+
+Software has fundamentally changed the way both private and public opinions are voiced. Software is not a singular, isolated technology living inside hardware but rather a microcosm of its own, thus inherently ambivalent. The role it has played in voicing individual opinions in public opinion is especially double-sided.
+
+The definition of the public sphere has changed with every turn in history. As explained in “The Public Sphere: An Encyclopedia Article (1964)” the scope of what the public sphere includes has slowly expanded with history. From the feudal times during which the authorities “represent their power before the people, instead of for the people”, the public sphere expanded to include the actual public opinion thanks to the rise of literary journalism. Software has further augmented what journalism achieved in intensifying public discussion. How Twitter gives individuals an equal platform to be heard, sometimes by public officials, is one example of social media as software’s use case is expanding the scope of the public sphere. It is not just the end result of using software, but the “actively working with the data: reorganizing it, uncovering the connections, becoming aware of correlations” (Chun, 2004) that software truly becomes a tool of empowerment. I think that one can even argue that writing code is a creative outlet for individuals to communicate.
+
+Software, however, is also as effective in silencing voices as it is in amplifying them, depending on who is behind building the software. This paradox is like the illusion of transparency that humans see at the cost of hiding the machines. For example, surveillance programs like the Matrix and analytics tools running in between requests and responses are how centralized authorities attempt to influence and breach the public opinion using software. Another example is the polarization of software engineers' demographic, especially in gender. Despite many of the first generation programmers being female and machines lacking gender values, software engineering is becoming dominantly male-dominated, just within a few decades of its invention.
+
+While other industries may also have unbalanced representation, I think an equal representation in race, gender, and other background is especially important in software engineering. Software is referred to as the “actant in the world” that “augments, supplements, mediates, and regulates our live sand opens up new possibilities—but not in a deterministic way” (Kitchen & Dodge, 2011). Software is no longer a product but also a producer in that it disciplines our interactions with and expectations from software. As discussed before, software has tremendous power of amplifying individual voices. If this gender imbalance persists and software becomes a self-fulfilling prophecy that empowers only the voices of its creators-alike, it could become a dangerous loop of restricting the public sphere to only the powerful few, like the past societies.
